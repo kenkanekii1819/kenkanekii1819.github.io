@@ -223,3 +223,50 @@ font-size: 0.85rem;
 }
 
 }
+
+/* Responsive tweaks */
+
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  nav a {
+    margin-left: 0.75rem;
+    font-size: 0.85rem;
+  }
+
+}/* Booking section background */
+
+#booking {
+  background: 
+    linear-gradient(rgba(31, 31, 59, 0.85), rgba(16, 16, 31, 0.85)),
+    url("mountain.jpg") center/cover no-repeat;
+  color: #ffffff;
+  padding: 4rem 7vw;
+  position: relative;
+}
+
+#booking::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+#booking > * {
+  position: relative;
+  z-index: 2;
+}
+
+.booking-form {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+
