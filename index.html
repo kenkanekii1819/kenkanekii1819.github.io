@@ -13,9 +13,22 @@
 <section id="hotels" class="section"> <h2>Featured Hotels</h2> <div class="card-grid"> <article class="card"> <img src="https://via.placeholder.com/400x250" alt="City Hotel" /> <h3>City Lights Hotel</h3> <p>Modern rooms in the heart of downtown.</p> </article> <article class="card"> <img src="https://via.placeholder.com/400x250" alt="Beach Resort" /> <h3>Sunrise Beach Resort</h3> <p>Wake up to stunning ocean views.</p> </article> <article class="card"> <img src="https://via.placeholder.com/400x250" alt="Mountain Lodge" /> <h3>Mountain View Lodge</h3> <p>Cozy stays surrounded by nature.</p> </article> </div> </section> <section id="venues" class="section section-alt"> <h2>Event Venues</h2> <div class="card-grid"> <article class="card"> <img src="https://via.placeholder.com/400x250" alt="Banquet Hall" /> <h3>Grand Banquet Hall</h3> <p>Perfect for weddings and large gatherings.</p> </article> <article class="card"> <img src="https://via.placeholder.com/400x250" alt="Conference Center" /> <h3>Metro Conference Center</h3> <p>Equipped for business events and seminars.</p> </article> <article class="card"> <img src="https://via.placeholder.com/400x250" alt="Rooftop Venue" /> <h3>Skyline Rooftop</h3> <p>Stylish open-air space for parties.</p> </article> </div> </section> <section id="booking" class="section"> <h2>Make a Booking</h2> <form class="booking-form"> <div class="form-row"> <label for="booking-type">I want to book</label> <select id="booking-type" name="booking_type" required> <option value="">Select option</option> <option value="hotel">Hotel Room</option> <option value="venue">Event Venue</option> <option value="both">Hotel + Venue</option> </select> </div>
 
 
-<form class="booking-form"
-      action="https://formsubmit.co/manavraj010@gmail.com"
-      method="POST">
+ <!-- FORM SENDS TO YOUR EMAIL -->
+    <form class="booking-form"
+          action="https://formsubmit.co/kenkanekii1819@gmail.com"
+          method="POST">
+      
+      <!-- Redirect to thank you page after submit (optional) -->
+      <input type="hidden" name="_next" value="">
+      
+      <!-- Spam protection -->
+      <input type="text" name="_honey" style="display:none">
+      
+      <!-- Disable captcha for better UX -->
+      <input type="hidden" name="_captcha" value="false">
+      
+      <!-- Your custom email subject -->
+      <input type="hidden" name="_subject" value="New Hotel/Venue Booking Request">
   
   <div class="form-row">
     <label for="destination">City / Area</label>
@@ -53,3 +66,4 @@
 </form>
 
 <section id="contact" class="section section-alt"> <h2>Contact Us</h2> <p>Email: shivenderkumart@gmail.com · Phone: +91-9891053421</p> </section> <footer class="footer"> <p>© 2025 Shiva Hospitality. All rights reserved.</p> </footer> </body>
+
