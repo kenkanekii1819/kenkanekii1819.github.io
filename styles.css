@@ -269,14 +269,16 @@ font-size: 0.85rem;
   backdrop-filter: blur(10px);
 }
 
-/* ORANGE "Quick Booking" heading */
+/* FIXED: ORANGE Quick Booking heading (FORCE OVERRIDE) */
 #booking h2 {
-  color: #f97316 !important;  /* Orange color */
-  font-weight: 700;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  text-align: center;
+  color: #f97316 !important;
+  font-weight: 700 !important;
+  font-size: 2.5rem !important;
+  margin-bottom: 2rem !important;
+  text-align: center !important;
 }
+
+
 
 
 
