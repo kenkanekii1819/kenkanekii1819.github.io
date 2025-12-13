@@ -269,10 +269,6 @@ font-size: 0.85rem;
   backdrop-filter: blur(10px);
 }
 
-/* FIXED: Orange "Quick Booking" ONLY (original positioning) */
-#booking h2 {
-  color: #f97316 !important;  /* Orange only */
-}
 
 
 
