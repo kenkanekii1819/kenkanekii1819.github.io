@@ -269,6 +269,23 @@ font-size: 0.85rem;
   backdrop-filter: blur(10px);
 }
 
+/* SEPARATE BOOKING SECTION STYLES */
+.make-a-booking-section {
+  background: var(--light);
+  padding: 4rem 7vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.make-a-booking-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #f97316;  /* ORANGE - Change this anytime! */
+  font-weight: 700;
+}
+
+
 
 
 
